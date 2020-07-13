@@ -1,14 +1,30 @@
 h1
 {
     text-align: center;
+    color: white;
     font-family: cursive;
-    background-color: black;
-    color: whitesmoke; 
+    margin: 0;
+    padding: 0;
+}
+#margen
+{
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 2px solid #DDD;
+    margin: 0 auto;
+}
+#mayor
+{
+    width: 70%;
+    border: 2px solid #DDD;
+    padding: 1em;
+    text-align: left;
+    margin: 0 auto;
+    font-family: cursive;
+    color: white;
 }
 body
 {
-    text-align: left;
     background-color: black;
-    color: whitesmoke;
-    font-family: cursive;
 }
