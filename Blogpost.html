@@ -14,12 +14,21 @@
     <div id="margendep">
         <div id = "mayor">
             <p><b>Git init</b></p>
+            <!Crea el staging y el repositorio en la ram para posteriormente ser utilizado con estos codigos>
             <p><b>Git add .</b></p>
+            <!Manda el archivo al staging para ser rastreado y despues enviado al repositorio>
             <p><b>Git commit -m "Nombre de la version del archivo"</b></p>
+            <!Envia el archivo al repositorio comenzando el "historial de cambios">
             <p><b>Git show</b></p>
-            <p><b>Git log / Git log --oneline</b></p>
+            <!Muestra los ultimos cambios hechos en el archivo>
+            <p><b>Git log / Git log --oneline / Git log --stat</b></p>
+            <!Muestra el historial de cambios o los commits que has hecho / hace lo mismo pero se ve mas bonito / hace lo mismo pero siendo mas detallado>
             <p><b>Git diff</b></p>
-            <P><b>git diff "Codigo de la version" "nombre del archivo"</b></P>
+            <!Muestra los cambios entre el archivo enviado al staging y el archivo actual del disco duro sin necesidad de enviarlo al commit (esto no implica que no se deba enviar los archivos al repositorio, esto es importante debido al historial)
+            <P><b>Git diff "Codigo de la version" "nombre del archivo"</b></P>
+            <!Muestra los cambios entre dos archivos de diferente orden cronologico enviados al repositorio>
+            <p><b>Git merge "nombre de la cabecera"</b></p>
+            <!Une dos ramas creadas con anterioridad>
         </div>
     </div>
 </body>
